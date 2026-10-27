@@ -1,0 +1,23 @@
+apiVersion: v2
+name: forgeai-instancetype-operator
+description: Derives InstanceTypes and Kueue ResourceFlavors from GPU nodes for forgeai
+type: application
+home: https://github.com/wutz/forgeai-instancetype-operator
+sources:
+  - https://github.com/wutz/forgeai-instancetype-operator
+
+version: 0.1.0
+appVersion: "0.1.0"
+
+keywords:
+  - kubernetes
+  - operator
+  - gpu
+  - kueue
+
+maintainers:
+  - name: Taizeng Wu
+    url: https://github.com/wutz
+
+annotations:
+  kubebuilder.io/generated-by: kubebuilder
