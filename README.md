@@ -35,7 +35,7 @@ The operator is published as a container image and a Helm chart:
 
 ```sh
 helm install forgeai-instancetype-operator oci://ghcr.io/wutz/charts/forgeai-instancetype-operator \
-  --version 0.1.0 \
+  --version 0.1.1 \
   --namespace forgeai-system --create-namespace
 ```
 
