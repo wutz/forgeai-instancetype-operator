@@ -10,11 +10,9 @@ on:
       - "charts/**"
       - "Makefile"
       - ".github/workflows/test-chart.yml"
+# No path filter on pull_request: "Lint and render" is a required check on main,
+# so it must report on every pull request, including docs-only changes.
   pull_request:
-    paths:
-      - "charts/**"
-      - "Makefile"
-      - ".github/workflows/test-chart.yml"
 
 permissions: {}
 
